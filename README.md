@@ -6,6 +6,8 @@ The content is divided in 2 parts:
 - Scripts
 - Notebooks
 
+Important: the model for embedding and answer generation are OpenAI. Create a .env file containing the OPENAI_API_KEY
+
 ## SCRIPTS:
 
 retrieval.py: Contains the function to execute the RAG assistant
