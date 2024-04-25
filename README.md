@@ -6,7 +6,11 @@ The content is divided in 2 parts:
 - Scripts
 - Notebooks
 
-Important: the model for embedding and answer generation are OpenAI. Create a .env file containing the OPENAI_API_KEY
+EXECUTE
+Important: the model for embedding and answer generation are OpenAI. Create a .env file containing the `OPENAI_API_KEY`
+To execute the application from stremlit (still not working, need some adjustments):
+
+`streamlit run app.py`
 
 ## SCRIPTS:
 
@@ -16,7 +20,7 @@ utils.py: Contains the function to digest the PDF documents, embed and save them
 
 ## NOTEBOOKS (in folder notebooks):
 
-notebooks\notebook_working.ipynb
+**notebooks\notebook_working.ipynb**
 ### RAG assintant notebook
 
 Notebook consisting in two parts:
@@ -27,7 +31,7 @@ The model used for the embeddings and the text generation are from OpenAI.
 And the library using for generate the embeddings and the vectorstore is Chroma.
 
 
-notebooks\notebook_test_prompt.ipynb
+**notebooks\notebook_test_prompt.ipynb**
 ### Testing Prompt
 
 This notebook is for testing and improvement the system prompt for a better performance of the RAG assitant.
@@ -39,7 +43,7 @@ Some strategies are:
 - A final strategy not tested would be Chain-of-Thougts, guiding the model in the process of preparing the answer.
 
 
-notebooks\notebook_test_faiss.ipynb
+**`notebooks\notebook_test_faiss.ipynb**
 ### RAG assitant with FAISS
 
 Notebook consisting in several parts:
