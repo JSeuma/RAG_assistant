@@ -14,9 +14,11 @@ To execute the application from stremlit (still not working, need some adjustmen
 
 ## SCRIPTS:
 
-retrieval.py: Contains the function to execute the RAG assistant
-app.py: Contains the code to launch the application of RAG chat-assistant with the library Streamlit
-utils.py: Contains the function to digest the PDF documents, embed and save them in a vectorstore named "chroma_db", using the library Chroma.
+- `retrieval.py`: Contains the function to execute the RAG assistant
+
+- `app.py`: Contains the code to launch the application of RAG chat-assistant with the library Streamlit
+
+- `utils.py`: Contains the function to digest the PDF documents, embed and save them in a vectorstore named `chroma_db`, using the library Chroma.
 
 ## NOTEBOOKS (in folder notebooks):
 
