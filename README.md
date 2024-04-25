@@ -20,6 +20,7 @@ utils.py: Contains the function to digest the PDF documents, embed and save them
 
 ## NOTEBOOKS (in folder notebooks):
 
+
 **notebooks\notebook_working.ipynb**
 ### RAG assintant notebook
 
@@ -30,6 +31,7 @@ Notebook consisting in two parts:
 The model used for the embeddings and the text generation are from OpenAI.
 And the library using for generate the embeddings and the vectorstore is Chroma.
 
+--------------------------------------------
 
 **notebooks\notebook_test_prompt.ipynb**
 ### Testing Prompt
@@ -42,6 +44,7 @@ Some strategies are:
 - Another strategy would be Few-shots prompting, including some examples of question-answer in the prompt to guide the model to prepare the answers.
 - A final strategy not tested would be Chain-of-Thougts, guiding the model in the process of preparing the answer.
 
+--------------------------------------------
 
 **`notebooks\notebook_test_faiss.ipynb**
 ### RAG assitant with FAISS
