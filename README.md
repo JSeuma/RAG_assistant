@@ -8,6 +8,7 @@ The content is divided in 2 parts:
 
 EXECUTE
 Important: the model for embedding and answer generation are OpenAI. Create a .env file containing the `OPENAI_API_KEY`
+To install the required libraries run the command: `pip install -r requirements`
 To execute the application from stremlit (still not working, need some adjustments):
 
 `streamlit run app.py`
